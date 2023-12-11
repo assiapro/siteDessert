@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h1{
+    background-color:#b934a2;
+    color: white;
+    font-size: 1em;
+}
+logo{
+    box-sizing: border-box;
+
+}
+
+h2, h3, h4 {
+color: #b934a2;
+font-family: Arial;
+background-color: white;
+    
+}
+
+#container{
+
+    width: 60%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 8px solid #b934a2;
+}
+    
+
+.header{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+background-color:white; 
+padding:5px ; 
+
+}
+.entete{
+width: 70%;
+margin: 1px;
+background-color:#E2C9D7, #E2C9D7 20px, #E9D2DF 0, #E9D2DF;
+
+}
+.entete p {
+    font-size: 0.8em;
+   
+
+}
+.entete p span{
+    font-size: 0.6em;
+   
+}
+.october{
+   
+display: flex;
+justify-content: space-arround;
+gap: 1em;
+
+}
+
+
+.october img {
+    width: 100%;
+
+}
+
+.col4{
+
+width: 15%;
+margin: 1px;
+}
+.col4 >img{
+
+    max-width: 100%;
+}
+.col2{
+    width:10% ;
+    margin : 0%;
+    flex-wrap: wrap;
+}
+.col6{
+
+width: 80%;
+margin : 5%; 
+justify-content: center;
+text-align: left;
+
+
+}
+.col6 h5{
+    background-color:white;
+
+}
+
+.col2 span{
+    background-color: #b934a2;
+
+}    
+h3 {
+    justify-content: left;
+}
+.wares{
+
+    display: flex;
+    justify-content: center;
+    
+        
+}
+.wares >div {
+
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    line-height: 5px;
+    padding: 5px;
+}
+.wares >div img {
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row > div img{
+width: 100%;
+justify-content: space-around;
+
+
+}
+.col5{
+
+    width: 50%;
+    margin: auto;
+}
+.col5 img {
+
+width: 100%;
+margin-top: 0;
+}
+.impair{
+    background-color: #b934a2;
+}
+.paire{
+
+background-color: #E2C9D7;
+
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+
+}
+.col4{
+    width: 30%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
